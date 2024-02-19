@@ -1,2 +1,2 @@
 #!/bin/bash
-fputs ("Programming is like building a multilingual puzzle)
+gcc fputs ("Programming is like building a multilingual puzzle)
