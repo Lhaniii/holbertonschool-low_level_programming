@@ -18,17 +18,17 @@ int main(void)
 /*≤s la variable n est supp√rieur a zero le nombre est posif*/
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf(" is positive\n");
 	}
 /*si la variable n est inf√rieur a zero l nombre est negatif*/
 	else if (n < 0)
 	{
-		printf("is negative\n");
+		printf(" is negative\n");
 	}
 /*si la variable est = a zero le nombre zero*/
 	else
 	{
-		printf("is zero\n");
+		printf(" is zero\n");
 	}
 	return (0);
 }
