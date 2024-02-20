@@ -14,21 +14,21 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("%d", n);
+	printf("%d, n");
 /*≤s la variable n est supp√rieur a zero le nombre est posif*/
 	if (n > 0)
 	{
-		printf("The number is positive\n");
+		printf("is positive\n");
 	}
 /*si la variable n est inf√rieur a zero l nombre est negatif*/
 	else if (n < 0)
 	{
-		printf("The number is negative\n");
+		printf("is negative\n");
 	}
 /*si la variable est = a zero le nombre zero*/
 	else
 	{
-		printf("The number is zero\n");
+		printf("is zero\n");
 	}
 	return (0);
 }
