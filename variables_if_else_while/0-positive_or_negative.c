@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int x;
+	int n;
 
 	srand(time(0));
-	x = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
-	printf("%d \n", x);
+	printf("%d \n", n);
 
-	if (x > 0)
+	if (n > 0)
 
 	{
 		printf("The number is positive \n");
 	}
-	else if (x < 0)
+	else if (n < 0)
 	{
 		printf("the number is nefative \n");
 	}
