@@ -15,6 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	printf("%d", n);
+
 /*²s la variable n est suppÃrieur a zero le nombre est posif*/
 	if (n > 0)
 	{
