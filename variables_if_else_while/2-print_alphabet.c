@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Alphabet
+ * main - Alphabet
  *
- * Return: Always 0 (succes)
+ * Return: Always (succes)
  */
 
 int main(void)
