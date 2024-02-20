@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - The last digit
  *
  * Return: Always 0(succes)
  */
@@ -17,15 +17,15 @@ int main(void)
 
 	if ((n % 10) > 5)
 	{
-		printf("Last digit %d and is greater than 5 and not 0\n", n % 10);
+		printf("Last digit %d and is greater than 5 and not 0\n", n, n % 10);
 	}
 	else if ((n % 10) < 5)
 	{
-		printf("last digit %d and is less than 5 and not 0\n", n % 10);
+		printf("last digit %d and is less than 5 and not 0\n", n, n % 10);
 	}
 	else
 	{
-		printf("last digit of %d and is 0\n", n % 10);
+		printf("last digit of %d and is 0\n", n, n % 10);
 	}
 	return (0);
 }
