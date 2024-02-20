@@ -8,24 +8,24 @@
  */
 int main(void)
 {
-	int n;
+	int n, y;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	y = n % 10;
 
 	printf("%d", n);
-
-	if ((n % 10) > 5)
+	if (y > 5)
 	{
-		printf("Last digit of %d and is greater than 5 and not 0\n, n," n % 10);
+		printf("Last digit of %d and is greater than 5 and not 0\n, n," y);
 	}
-	else if ((n % 10) < 5)
+	else if (y < 5)
 	{
-		printf("last digit %d and is less than 5 and not 0\n, n," n % 10);
+		printf("last digit %d and is less than 5 and not 0\n, n," y);
 	}
-	else
+	else if (y == 0)
 	{
-		printf("last digit of %d and is 0\n, n," n % 10);
+		printf("last digit of %d and is 0\n, n," y);
 	}
 	return (0);
 }
