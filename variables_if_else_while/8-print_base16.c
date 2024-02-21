@@ -11,7 +11,7 @@ int main(void)
 	for (number = '0'; number <= '9'; number++)
 		putchar(number);
 
-	for (number = '61'; number <= '66'; number++)
+	for (number = "61"; number <= "66"; number++)
 		putchar(number);
 
 	putchar ('\n');
