@@ -13,9 +13,8 @@ int main(void)
 		{
 			putchar(',');
 			putchar(' ');
+			putchar('$');
 		}
-	for (number = '9')
-		putchar('$')
 
 	putchar('\n');
 	return (0);
