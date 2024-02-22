@@ -1,4 +1,5 @@
-#include<main.h>
+#include"main.h"
+#include<stdio.h>
 /**
  * main - print function
  * Return: Always (succes)
