@@ -2,7 +2,9 @@
 /**
  * main - print function
  * Return: Always (succes)
+ *
  */
+int _putchar(char c)
 int main(void)
 {	
 	_putchar('_');
