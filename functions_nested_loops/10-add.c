@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * add - n1 + n2
- *
- * Return : Always (succes)
+ * add - Adition of two value
  * @n1: int
  * @n2: int
+ *
+ * Return: adds value
  */
 int add(int n1, int n2)
 {
