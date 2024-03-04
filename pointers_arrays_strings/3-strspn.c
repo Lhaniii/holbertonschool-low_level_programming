@@ -4,7 +4,7 @@
  *
  * Return: c
  *
- * @s: char 
+ * @s: char
  *
  * @accept: char
  */
