@@ -4,11 +4,12 @@
  *
  * Return: power of y
  *
- * @n: int
+ * @x: int
+ *
+ * @y: int
  */
 int _pow_recursion(int x, int y)
 {
-	int a = x;
 
 	if (y < 0)
 	{
@@ -18,5 +19,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-	return (a * _pow_recursion(x, y - 1));
+	return (x * _pow_recursion(x, y - 1));
 }
