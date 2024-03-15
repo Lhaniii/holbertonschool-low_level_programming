@@ -7,12 +7,13 @@
 /**
  * struct dog - dog id
  *
- * @name - name of dog
+ * @name: Name of dog
  *
- * @age - age of dog
+ * @age: Age of dog
  *
- * @owner: owner of dog
+ * @owner: Owner of dog
  */
+
 struct dog
 {
 	char *name;
