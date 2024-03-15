@@ -22,7 +22,7 @@ struct dog
 };
 
 /**
- * dog_t - name of struct
+ * typedef dog_t - name of struct
  */
 
 typedef struct dog dog_t;
