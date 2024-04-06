@@ -7,7 +7,7 @@
  *
  * @m: number to flip
  *
- * return: ..
+ * Return: ...
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
